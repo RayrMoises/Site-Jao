@@ -1,0 +1,137 @@
+
+@media (max-width: 600px){
+    body {
+        background-image: url(/src/imagens/fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-color: black;
+    }
+    
+    .btn-abrir-menu .icon-menu-abrir{
+        display: block;
+    }
+    .nav-bar .nav-list{
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .menu .descricao {
+        color: white;
+        width: 320px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.623);
+        border-radius: 10px;
+        transition: 0.3s ease;
+    }
+    
+    .menu .descricao:hover {
+        background-color: rgba(255, 255, 255, 0.623);
+        color: black;
+    }
+    .jao-um {
+        width: 100px;
+        background-color: rgba(255, 255, 255, 0.39);
+        border-radius: 360px;
+        transition: transform ease 1s;
+        margin: 0 auto;
+    }
+    .jao-um:hover {
+        transform: scale(1.1);
+    }
+    .contatos {
+        background-color: black;
+        height: 650px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+    }
+    .contatos .instagram-cartao {
+        background-color: rgb(0, 0, 0);
+        border: rgb(255, 255, 255) 2px solid;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        padding: 20px;
+        transition: 1s;
+        border-radius: 5px;
+    }
+    .contatos .instagram-cartao:hover {
+        background-color: rgb(255, 255, 255);
+        background-size: cover;
+        color: black;
+    }
+    .contatos .instagram-cartao img{
+        width: 32px;
+        transition: 1s;
+    }
+    .contatos .instagram-cartao img:hover {
+        transform: scale(1.2);
+    }
+    .contatos .instagram-cartao .descricao-cartao {
+        padding: 10px;
+    }
+    .contatos .instagram-cartao .onlyfans {
+        width: 80px;
+        margin-bottom: -10px;
+    }
+    .suporte {
+        background-color: white;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18pt;
+        text-align: center;
+    }
+    
+    .suporte .email {
+        padding: 20px;
+    }
+    
+    .suporte .email-caixa {
+        width: 250px;
+        height: 40px;
+        border-color: black;
+        border-radius: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 10pt;
+    }
+    
+    .suporte .botao {
+        margin-top: 20px;
+        padding: 10px;
+        cursor: pointer;
+        background-color: black;
+        border-radius: 5px;
+        border-color: white;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        transition: 0.3s ease;
+    }
+    
+    .suporte .botao:hover {
+        transform: scale(1.1);
+        color: black;
+        background-color: white;
+        border-color: black;
+    }    
+}

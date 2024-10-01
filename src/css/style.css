@@ -1,0 +1,225 @@
+body {
+    background-image: url(/src/imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-abrir-menu .icon-menu-abrir{
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 5px;
+    display: none;
+}
+
+.btn-abrir-menu .icon-menu-abrir:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+}
+
+.menu-mobile {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0%;
+    z-index: 99999;
+    border-radius: 10px;
+    display: none;
+    transition: 0.3s ease;
+}
+
+.abrir-menu {
+    display: block;
+    width: 70%;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+}
+
+.menu-mobile .btn-fechar {
+    padding: 20px 4%;
+}
+
+.menu-mobile .btn-fechar .i{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 30px;
+}
+
+.menu-mobile .btn-fechar .i:hover {
+    color: rgb(141, 141, 141);
+}
+
+.menu-mobile nav .nav-list .nav-item {
+    color: white;
+    font-size: 20px;
+    padding: 25px 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    transition: 0.3s ease;
+}
+
+.menu-mobile nav .nav-list .nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.562);
+}
+
+.nav-bar .nav-list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.nav-bar .nav-list .nav-item {
+    padding: 10px;
+    transition: ease 0.5s;
+}
+.nav-bar .nav-list .nav-item:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.menu .descricao {
+    color: white;
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    margin-left: 40px;
+    transition: 0.3s ease;
+}
+
+.menu .descricao:hover {
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+}
+.jao-um {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 360px;
+    transition: transform ease 1s;
+    margin-right: 40px;
+}
+.jao-um:hover {
+    transform: scale(1.1);
+}
+.contatos {
+    background-color: black;
+    height: 600px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.contatos .instagram-cartao {
+    background-color: rgb(0, 0, 0);
+    border: rgb(255, 255, 255) 2px solid;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.contatos .instagram-cartao:hover {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    color: black;
+}
+.contatos .instagram-cartao img{
+    width: 100px;
+    transition: 1s;
+}
+.contatos .instagram-cartao img:hover {
+    transform: scale(1.2);
+}
+.contatos .instagram-cartao .descricao-cartao {
+    padding: 10px;
+}
+.contatos .instagram-cartao .onlyfans {
+    width: 180px;
+}
+
+.suporte {
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    text-align: center;
+}
+
+.suporte .email {
+    padding: 20px;
+}
+
+.suporte .email-caixa {
+    width: 250px;
+    height: 40px;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 10pt;
+}
+
+.suporte .botao {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    transition: 0.3s ease;
+}
+
+.suporte .botao:hover {
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+    border-color: black;
+}
